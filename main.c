@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <saml21.h>
+#include "delay.h"
 
 
 void main(void) {
@@ -12,7 +13,8 @@ PORT->Group[1].DIRSET.reg |= PORT_PB11;
    
    while (1)
    {
-   
+   PORT->Group[1].OUTTGL.reg |= PORT_PB11; 
+   _delay_ms(1000);
    }
 
 }

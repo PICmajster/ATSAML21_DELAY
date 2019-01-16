@@ -12,7 +12,7 @@
 #define cpu_delay_us(delay)     delay_cycles(cpu_us_2_cy(delay, F_CPU))
 #define _delay_us    cpu_delay_us
 #define _delay_ms    cpu_delay_ms
-#define _delay_s    cpu_delay_s
+#define _delay_s     cpu_delay_s
 
 
 void portable_delay_cycles(uint32_t n)
