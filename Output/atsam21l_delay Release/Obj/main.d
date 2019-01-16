@@ -78,4 +78,5 @@ Output/atsam21l_delay\ Release/Obj/main.o: \
  /home/wat/Segger_Projects/ATSAML21_DELAY/SAM-L/CMSIS/Device/SAML21/Include/instance/trng.h \
  /home/wat/Segger_Projects/ATSAML21_DELAY/SAM-L/CMSIS/Device/SAML21/Include/instance/usb.h \
  /home/wat/Segger_Projects/ATSAML21_DELAY/SAM-L/CMSIS/Device/SAML21/Include/instance/wdt.h \
- /home/wat/Segger_Projects/ATSAML21_DELAY/SAM-L/CMSIS/Device/SAML21/Include/pio/saml21g18b.h
+ /home/wat/Segger_Projects/ATSAML21_DELAY/SAM-L/CMSIS/Device/SAML21/Include/pio/saml21g18b.h \
+ /home/wat/Segger_Projects/ATSAML21_DELAY/delay.h
